@@ -12,7 +12,6 @@ import org.springframework.context.annotation.ComponentScan;
  */
 @SpringBootApplication
 @ComponentScan(basePackages = "com.wong.kmall")
-@MapperScan({"com.wong.kmall.mapper","com.wong.kmall.demo.dao"})
 public class KmallDemoApplication {
     public static void main(String[] args) {
         SpringApplication.run(KmallDemoApplication.class, args);

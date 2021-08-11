@@ -9,6 +9,6 @@ import org.springframework.context.annotation.Configuration;
  * @description MyBatis配置
  */
 @Configuration
-@MapperScan({"com.wong.kmall.*.mapper","com.wong.kmall.*.dao"})
+@MapperScan({"com.wong.kmall.mapper","com.wong.kmall.demo.dao"})
 public class MyBatisConfig {
 }
