@@ -1,7 +1,7 @@
 package com.wong.kmall.demo.service;
 
 import com.wong.kmall.common.util.JwtTokenUtil;
-import com.wong.kmall.demo.dao.UmsAdminRoleRelationDao;
+import com.wong.kmall.demo.dao.UmsAdminRoleRelationDAO;
 import com.wong.kmall.entity.UmsAdmin;
 import com.wong.kmall.entity.UmsAdminExample;
 import com.wong.kmall.entity.UmsPermission;
@@ -39,7 +39,7 @@ public class UmsAdminService {
     @Resource
     private UmsAdminMapper umsAdminMapper;
     @Resource
-    private UmsAdminRoleRelationDao umsAdminRoleRelationDao;
+    private UmsAdminRoleRelationDAO umsAdminRoleRelationDao;
 
     /**
      * 根据用户名获取后台管理员
