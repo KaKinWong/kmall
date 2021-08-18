@@ -1,8 +1,8 @@
 package com.wong.kmall.demo.service;
 
 import com.wong.kmall.demo.dao.EsProductDAO;
-import com.wong.kmall.demo.elasticsearch.document.EsProduct;
-import com.wong.kmall.demo.elasticsearch.repository.EsProductRepository;
+import com.wong.kmall.demo.nosql.elasticsearch.document.EsProduct;
+import com.wong.kmall.demo.nosql.elasticsearch.repository.EsProductRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.data.domain.Page;

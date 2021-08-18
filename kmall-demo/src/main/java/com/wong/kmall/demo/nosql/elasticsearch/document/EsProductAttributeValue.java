@@ -1,4 +1,4 @@
-package com.wong.kmall.demo.elasticsearch.document;
+package com.wong.kmall.demo.nosql.elasticsearch.document;
 
 import org.springframework.data.elasticsearch.annotations.Field;
 import org.springframework.data.elasticsearch.annotations.FieldType;

@@ -1,6 +1,6 @@
-package com.wong.kmall.demo.elasticsearch.repository;
+package com.wong.kmall.demo.nosql.elasticsearch.repository;
 
-import com.wong.kmall.demo.elasticsearch.document.EsProduct;
+import com.wong.kmall.demo.nosql.elasticsearch.document.EsProduct;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.elasticsearch.repository.ElasticsearchRepository;
