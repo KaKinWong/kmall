@@ -1,6 +1,6 @@
 package com.wong.kmall.demo.dao;
 
-import com.wong.kmall.demo.elasticsearch.document.EsProduct;
+import com.wong.kmall.demo.nosql.elasticsearch.document.EsProduct;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
