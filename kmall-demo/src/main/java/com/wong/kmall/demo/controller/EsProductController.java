@@ -49,7 +49,7 @@ public class EsProductController {
     @PostMapping("/create/{id}")
     public CommonResult<EsProduct> create(@PathVariable Long id) {
         EsProduct esProduct = esProductService.create(id);
-        if (esProduct == null) {
+        if (esProduct != null) {
             return CommonResult.success(esProduct);
         } else {
             return CommonResult.failed();
