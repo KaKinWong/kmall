@@ -2,7 +2,7 @@ package com.wong.kmall.demo.controller;
 
 import com.wong.kmall.common.api.CommonPage;
 import com.wong.kmall.common.api.CommonResult;
-import com.wong.kmall.demo.elasticsearch.document.EsProduct;
+import com.wong.kmall.demo.nosql.elasticsearch.document.EsProduct;
 import com.wong.kmall.demo.service.EsProductService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
